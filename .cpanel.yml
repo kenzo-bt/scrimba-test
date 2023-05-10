@@ -2,4 +2,4 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/myxoyryc/public_html/scrimba-test-cicd
- - /bin/cp * $DEPLOYPATH
+ - /bin/cp -R * $DEPLOYPATH
