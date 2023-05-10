@@ -1,0 +1,7 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/myxoyryc/public_html/scrimba-test-cicd
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp index.css $DEPLOYPATH
+ - /bin/cp index.js $DEPLOYPATH
