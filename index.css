@@ -2,3 +2,15 @@ body {
   background-color: white;
   color: black;
 }
+
+.navbar {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+}
