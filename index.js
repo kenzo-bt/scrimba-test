@@ -1,11 +1,25 @@
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src="react-logo.png" height="64px" />
+      </nav>
+    </header>
+  );
+}
+
+function Footer() {
+  return (
+    <footer>
+      © 2023 Myxos development. All rights reserved.
+    </footer>
+  );
+}
+
 function Page() {
   return (
     <div>
-      <header>
-        <nav>
-          <img src="react-logo.png" height="64px" />
-        </nav>
-      </header>
+      <Header />
       <h1>Welcome to React</h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -14,9 +28,7 @@ function Page() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
-      <footer>
-        © 2023 Myxos development. All rights reserved.
-      </footer>
+      <Footer />
     </div>
   );
 }
