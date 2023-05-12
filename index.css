@@ -14,3 +14,7 @@ body {
 .navLinks {
   display: flex;
 }
+
+.navLinks li {
+  list-style: none;
+}
