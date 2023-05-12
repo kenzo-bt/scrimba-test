@@ -1,5 +1,5 @@
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <>
+  <div>
     <img src="./react-logo.png" height="32px" width="32px" />
     <h1>Fun facts about React</h1>
     <ul>
@@ -9,5 +9,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <li>Is maintained by Facebook</li>
       <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
-  </>
+  <div/>
 );
