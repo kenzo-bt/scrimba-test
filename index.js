@@ -1,6 +1,6 @@
 function MyComponent() {
   return (
-    <>
+    <div>
       <img src="react-logo.png" height="64px" />
       <h1>Welcome to React</h1>
       <ul>
@@ -10,7 +10,7 @@ function MyComponent() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
-    </>
+    </div>
   );
 }
 
