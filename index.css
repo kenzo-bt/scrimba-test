@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -13,8 +13,11 @@ body {
 
 .navLinks {
   display: flex;
+  justify-content: flex-end;
+  width: 50%;
 }
 
 .navLinks li {
   list-style: none;
+  padding: 1rem
 }
